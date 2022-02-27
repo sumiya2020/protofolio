@@ -1,0 +1,222 @@
+body {
+    font-family: 'Poppins', sans-serif;
+   color: #000;
+}
+span{
+    color: #6c5ce7;
+}
+
+ /* Start Navigation */
+ #Navigation{
+    
+        box-shadow: 0px 0px 10px #0000002e;
+        height: 87.5px;
+        margin-bottom: 80px;
+    }
+    #Navigation .container .navbar-light .navbar-brand {
+        color: #6c5ce7;
+        font-size: 30px;
+        font-weight: 700;
+    }
+    #Navigation .container .navbar-light .nav-link.active {
+        color: #6c5ce7;
+        font-weight: 300;
+    }
+
+     /* End Navigation */
+      /* Start About*/
+      #about{
+        margin-bottom: 117px; 
+      }
+ #about .text-center {
+        margin-top: 87px;
+        line-height: 2;
+    }
+    #about .btn-primary {
+        color: #fff;
+        background-color:#6c5ce7;
+        border-color: #6c5ce7;
+        margin-right: 25px;
+    }
+    #about .btn-primary:hover{
+        background-color: #a29bfe;
+        color: #000;
+    }
+
+      /* End About*/ 
+      /* Start Cv Section */
+#CV{
+    margin-top: 80px;
+    margin-bottom: 117px; 
+    background-color: #e9ecef40;
+    padding: 50px 0px;
+}
+
+#CV .CV-part{
+    margin-top: 35px;
+        line-height: 2;
+}
+#CV .btn-lg {
+    color: #fff;
+    background-color:#6c5ce7;
+    border-color: #6c5ce7;
+    
+}
+#CV .btn-lg:hover{
+    background-color: #a29bfe;
+    color: #000;
+}
+
+     /* End Cv Section */
+     /* resume */
+     #resume{
+        margin-bottom: 117px; 
+     }
+     #resume .btn-lg {
+        color: #fff;
+        background-color:#6c5ce7;
+        border-color: #6c5ce7;
+        
+    }
+     #resume .btn-lg:hover{
+        background-color: #a29bfe;
+        color: #000;
+     }
+
+     /* services part  */
+     
+     #service{
+         margin-bottom: 100px;
+         background-color: #e9ecef40;
+         padding: 23px 0px;
+     }
+     #service .div-part{
+         display: flex;
+     }
+ #service .div-single {
+        height: 300px;
+        width: 380px;
+        box-shadow: 0 0 1px 0;
+        margin-bottom: 40px;
+        margin-right: 18px;
+        padding: 20px;
+    }
+    #service .div-single .icon{
+      font-size: 25px;
+      font-weight: 800;
+        padding-top: 12px;
+        color: #513fd6;
+       
+    }
+    #service .div-single h3{
+        padding: 10px 0px;  
+        font-weight: 500;
+    }
+    #service .div-single p{
+        padding-bottom: 20px;
+    }
+
+    #service .div-single button  {
+        color: #513fd6;
+        border-bottom: 1px solid #513fd6;
+        font-weight: 500;
+        
+    }
+    /* Start Achievment part */
+    /* End Achievment part */
+#Achievment {
+ margin-bottom: 93px;
+} 
+#Achievment .Achievment-text .Achievment-single {
+    padding: 25px 41px;
+}
+#Achievment .Achievment-text .Achievment-single h3{
+    font-size: 40px;
+    font-weight: 500;
+    padding-top: 7px ;
+
+}
+#Achievment .Achievment-text .Achievment-single p {
+    font-size: 25px;
+    font-weight: 300;
+}
+#Achievment .Achievment-text .Achievment-single .Ac-icon{
+    color: #6c5ce7;
+        font-size: 30px;
+        font-weight: 700;
+    
+}
+/* Trstimonials part start here  */
+#Testimonials {
+    margin-bottom: 100px;
+    padding: 23px 0px;
+    background-color: #e9ecef40;
+}
+#Testimonials .row{
+    margin-bottom: 30px;
+}
+
+#Testimonials .Testimonials-single {
+    height: 296px;
+    width: 465px;
+    box-shadow: 0 0 1px 0;
+    margin-bottom: 40px;
+    margin-right: 53px;
+    padding: 20px;
+    font-family: cursive;
+}
+#Testimonials .Testimonials-single .rounded-circle {
+    border-radius: 50%!important;
+    height: 75px;
+    padding-right: 10px;
+}
+  /*  Start midea link here */
+
+#media{
+    margin-bottom: 87.5px;
+}
+/* start get in touch */
+#get-in-touch {
+    margin-bottom: 87.5px;
+    background-color: #e9ecef40;
+    padding: 23px 0px;
+}
+#get-in-touch .btn-lg {
+    margin-top: 22px;
+    color: #fff;
+    background-color: #6c5ce7;
+    border-color: #6c5ce7;
+    margin-right: 25px;
+}
+#get-in-touch .btn-secondary{
+    background-color: #6c757D;
+}
+#get-in-touch .btn-lg:hover{
+    background-color: #a29bfe;
+    color: #000;
+ }
+ /* start footer part  */
+ #footer {
+    box-shadow: 0px 1px 1px 1px;
+}
+ 
+#footer .footer-taxt p  {
+    margin-top: 22px;
+    
+}
+#footer .footer-icon{
+   font-size: 17px;
+   color:#6c5ce7 ;
+}
+
+  /* end footer part  */
+
+
+
+  /* @media screen start*/
+  @media screen and (min-width:576 ){
+    #about .about-text {
+        height: 250px;
+        width: 317px;
+    }
+  }

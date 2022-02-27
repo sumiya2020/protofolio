@@ -1,0 +1,7 @@
+  /* @media screen start*/
+  @media screen and (min-width:576 ){
+    #about{
+        margin-top: -33px;
+        
+    }
+  }
